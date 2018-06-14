@@ -71,7 +71,7 @@ use-default-font=false
 antialiasing='rgba'
 
 [org/gnome/login-screen]
-logo='/usr/share/icons/manjaro.png'
+logo='/usr/share/icons/manjaro/maia/logo_text_wide.png'
 
 [org/gtk/Settings/FileChooser]
 sort-directories-first=true
