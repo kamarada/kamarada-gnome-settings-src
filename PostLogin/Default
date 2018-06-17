@@ -5,5 +5,6 @@
 # see here for more info
 # https://bugzilla.gnome.org/show_bug.cgi?id=782832
 
-grep -q \"^AutomaticLoginEnable=True\" /etc/gdm/custom.conf || pkill -KILL -u gdm
+#This check if automaticlogin is enable and apply the script only if yes
+grep -q "AutomaticLoginEnable=True" /etc/gdm/custom.conf || pkill -KILL -u gdm
 
