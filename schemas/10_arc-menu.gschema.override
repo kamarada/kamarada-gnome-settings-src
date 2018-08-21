@@ -1,5 +1,6 @@
 [org.gnome.shell.extensions.arc-menu]
 custom-menu-button-text='Menu'
+custom-menu-button-icon-size=18
 custom-menu-button-icon='/usr/share/icons/manjaro/maia/maia.svg'
 menu-button-text='Custom_Text'
 menu-button-appearance='Icon_Text'
