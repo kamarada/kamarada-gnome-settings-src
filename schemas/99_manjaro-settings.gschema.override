@@ -58,7 +58,7 @@ visible-name='manjaro'
 default-zoom-level='small'
 
 [org.gnome.nautilus.preferences]
-thumbnail-limit=1073741824
+thumbnail-limit=1000
 show-create-link=true
 
 [org.gnome.gedit.preferences.editor]
