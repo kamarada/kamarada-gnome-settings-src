@@ -22,7 +22,7 @@ enable-animations=true
 font-name='Noto Sans 11'
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Arc-Maia'
-icon-theme='Papirus-Arc-Maia'
+icon-theme='Papirus-Maia'
 monospace-font-name='Hack 11'
 
 [org.gnome.desktop.wm.preferences]
