@@ -12,5 +12,5 @@ custom-background-color=true
 customize-alphas=true
 max-alpha=1
 min-alpha=0.5
-transparency-mode='ADAPTIVE'
+transparency-mode='DYNAMIC'
 running-indicator-style='DOTS'
