@@ -21,8 +21,8 @@ document-font-name='Sans 11'
 enable-animations=true
 font-name='Noto Sans 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Adapta-Maia'
-icon-theme='Papirus-Maia'
+gtk-theme='Matcha-sea'
+icon-theme='Papirus-Dark-Maia'
 monospace-font-name='Hack 11'
 
 [org.gnome.desktop.wm.preferences]
@@ -41,7 +41,7 @@ favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit
 enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org', 'arc-menu@linxgem33.com']
 
 [org.gnome.shell.extensions.user-theme]
-name='Adapta-Maia'
+name='Matcha-sea'
 
 [org.gnome.Terminal.Legacy.Profile]
 allow-bold=true
