@@ -5,6 +5,9 @@ sched-idle='always'
 sched-idle='always'
 index-on-battery=false
 
+[org.gnome.desktop.app-folders]
+folder-children=['Utilities', 'Sundry']
+
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/illyria-default.jpg'
 show-desktop-icons=false
