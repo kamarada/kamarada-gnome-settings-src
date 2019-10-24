@@ -41,7 +41,7 @@ natural-scroll=false
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'empathy.desktop', 'hexchat.desktop', 'org.gnome.Screenshot.desktop', 'gnome-tweak-tool.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org', 'arc-menu@linxgem33.com']
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org']
 
 [org.gnome.shell.extensions.user-theme]
 name='Matcha-sea'

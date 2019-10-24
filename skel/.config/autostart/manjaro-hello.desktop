@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Manjaro Hello
+Comment=Strumento per accedere alla documentazione e supporto per nuovi utenti Manjaro.
+Icon=manjaro
+Exec=sh -c '/usr/bin/manjaro-hello && sleep 2 && /usr/bin/gnome-layout-switcher'
+Actions=
+Categories=GNOME;GTK;System;System-Tools;
