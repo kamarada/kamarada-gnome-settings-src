@@ -4,6 +4,5 @@ custom-menu-button-icon-size=18
 custom-menu-button-icon='/usr/share/icons/manjaro/white/white.svg'
 custom-menu-button-text=''
 menu-button-appearance='Icon_Text'
-disable-activities-hotcorner=false
 menu-button-icon='Custom_Icon'
 
