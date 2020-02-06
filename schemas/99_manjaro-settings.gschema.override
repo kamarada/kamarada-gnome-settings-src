@@ -9,11 +9,11 @@ index-on-battery=false
 folder-children=['Utilities', 'Sundry']
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/illyria-default.jpg'
+picture-uri='file:///usr/share/backgrounds/manjaro-time/manjaro-time.xml'
 show-desktop-icons=false
 
 [org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/illyria-default-lockscreen.jpg'
+picture-uri='file:///usr/share/backgrounds/manjaro-time/manjaro-time.xml.jpg'
 
 [org.gnome.settings-daemon.plugins.color]
 night-light-enabled=true
