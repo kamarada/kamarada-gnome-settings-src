@@ -1,0 +1,8 @@
+[org.gnome.desktop.app-folders]
+folder-children=['Utilities', 'Sundry', '2f2f632b-a5c0-4125-9d48-a105c9ccc8c7']
+
+[org.gnome.desktop.app-folders.folders.2f2f632b-a5c0-4125-9d48-a105c9ccc8c7]
+apps=['org.gnome.FileRoller.desktop', 'uget-gtk.desktop', 'gtkhash.desktop', 'yad-icon-browser.desktop', 'gtk-lshw.desktop', 'org.gnome.Characters.desktop', 'qv4l2.desktop', 'qvidcap.desktop', 'avahi-discover.desktop', 'org.gnome.font-viewer.desktop', 'caffeine-preferences.desktop', 'caffeine.desktop', 'stoken-gui.desktop', 'stoken-gui-small.desktop', 'bauh_tray.desktop', 'bauh.desktop', 'bssh.desktop', 'bvnc.desktop']
+name='Misc'
+translate=false
+
