@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Makes the GNOME Shell Apps Dashboard sort the apps into their
+#   respective categories based on the FreeDesktop standard.
+
+# Lincensed under the GPL License.
+
+app=manjaro-app-folder
+
+gsettings set org.gnome.desktop.app-folders folder-children "['accessories', 'office', 'system-tools']"
+
+gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/accessories/ name "Accessories"
+gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/accessories/ categories "['Utility']"
+
+gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/office/ name "Office"
+gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/office/ categories "['Office']"
+
+gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/system-tools/ name "System Tools"
+gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/system-tools/ categories "['System', 'Settings']"
+
+#Remove the .desktop entry in HOME user folder
+
+rm $HOME/.config/autostart/$app.desktop
+
