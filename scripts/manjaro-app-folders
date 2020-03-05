@@ -23,7 +23,9 @@ gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folder
 gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/system-tools/ translate true
 
 #Remove the .desktop entry in HOME user folder
-rm $HOME/.config/autostart/$app.desktop
+if [[ -e $HOME/.config/autostart/$app.desktop ]]; then
+	rm $HOME/.config/autostart/$app.desktop
+fi
 }
 
 REMOVE() {
