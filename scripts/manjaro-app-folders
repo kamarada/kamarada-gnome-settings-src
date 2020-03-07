@@ -4,7 +4,7 @@
 #   respective categories based on the FreeDesktop standard.
 
 # Lincensed under the GPL License.
-s
+
 app=manjaro-app-folder
 
 INSTALL() {
@@ -34,7 +34,7 @@ gsettings reset-recursively org.gnome.desktop.app-folders
 
 USAGE() {
 	echo
-    echo "You need to specific an argument:"
+    echo "Usage: you need to specific an argument:"
 	echo "(a)pply or (r)emove"
 	echo
 }
@@ -43,8 +43,8 @@ if [[ ${@} == 0 ]]; then
 	USAGE
 	exit 1
 else case ${@} in
-	a) INSTALL ;;
-	r) REMOVE ;;
+	a|A) INSTALL ;;
+	r|R) REMOVE ;;
 	*) USAGE ;;
 	esac
 fi
