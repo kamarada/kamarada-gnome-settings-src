@@ -5,7 +5,7 @@
 
 # Lincensed under the GPL License.
 
-app=manjaro-app-folder
+app=manjaro-app-folders
 
 INSTALL() {
 gsettings set org.gnome.desktop.app-folders folder-children "['accessories', 'office', 'system-tools']"
