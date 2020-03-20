@@ -47,7 +47,6 @@ enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'user-theme@gnome-shell-ext
 name='Matcha-sea'
 
 [org.gnome.Terminal.Legacy.Profile]
-allow-bold=true
 background-color='rgb(69,70,73)'
 use-theme-colors=false
 use-system-font=false
