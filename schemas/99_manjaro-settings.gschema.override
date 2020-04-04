@@ -36,6 +36,7 @@ focus-mode='click'
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
 natural-scroll=false
+click-method=areas
 
 [org.gnome.shell]
 always-show-log-out=true
