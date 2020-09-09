@@ -9,7 +9,9 @@ index-on-battery=false
 folder-children=['accessories', 'office', 'system-tools']
 
 [org/gnome/desktop/app-folders/folders/accessories]
-apps=['yad-icon-browser.desktop']
+apps=['yad-icon-browser.desktop', 'uget-gtk.desktop', 'transmission-gtk.desktop', 'org.gnome.Cheese.desktop']
+categories=['Utility']
+excluded-apps=['org.gnome.DejaDup.desktop', 'org.gnome.Nautilus.desktop', 'gnome-layouts.desktop', 'yelp.desktop', 'manjaro-documentation.desktop']
 categories=['Utility']
 name='Accessories'
 translate=true
@@ -20,7 +22,7 @@ name='Office'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/system-tools]
-apps=['qvidcap.desktop', 'qv4l2.desktop', 'bssh.desktop', 'bvnc.desktop']
+apps=['qvidcap.desktop', 'qv4l2.desktop', 'bssh.desktop', 'bvnc.desktop', 'hp-uiscan.desktop', 'org.gnome.Glade.desktop', 'mntray.desktop']
 categories=['System', 'Settings']
 name='System Tools'
 translate=true
