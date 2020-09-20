@@ -102,3 +102,36 @@ logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
 
+[org/gnome/shell/extensions/materialshell/layouts]
+default-layout='half'
+half=true
+ratio-value=0.54999999999999993
+split=false
+tween-time=0.40000000000000013
+
+[org/gnome/shell/extensions/materialshell/theme]
+panel-icon-style='hybrid'
+panel-opacity=99
+panel-size=40
+primary-color='#166052'
+surface-opacity=100
+
+[org/gnome/shell/extensions/nightthemeswitcher]
+commands-enabled=false
+cursor-variant-original='xcursor-breeze'
+gtk-variant-day='Matcha-sea'
+gtk-variant-night='Matcha-dark-sea'
+gtk-variant-original='Matcha-dark-sea'
+icon-variant-original='Papirus-Dark-Maia'
+manual-gtk-variants=true
+manual-shell-variants=true
+shell-variant-day='Matcha-dark-sea'
+shell-variant-night='Matcha-dark-sea'
+shell-variant-original='Matcha-dark-sea'
+time-source='nightlight'
+
+[org/gnome/shell/extensions/pop-shell]
+gap-inner=uint32 0
+gap-outer=uint32 0
+show-title=true
+tile-by-default=true
