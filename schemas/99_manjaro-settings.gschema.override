@@ -44,7 +44,7 @@ document-font-name='Sans 11'
 enable-animations=true
 font-name='Noto Sans 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Matcha-dark-sea'
+gtk-theme='Matcha-sea'
 icon-theme='Papirus-Dark-Maia'
 monospace-font-name='Hack 11'
 
