@@ -63,14 +63,14 @@ tap-and-drag=true
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'gnome-tweak-tool.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org', 'nightthemeswitcher@romainvigier.fr']
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org']
 
 [org.gnome.shell.extensions.user-theme]
 name='Matcha-dark-sea'
 
 [org.gnome.Terminal.Legacy.Profile]
 background-color='rgb(69,70,73)'
-use-theme-colors=true
+use-theme-colors=false
 use-system-font=false
 font='Hack 11'
 foreground-color='rgb(220,233,235)'
