@@ -70,7 +70,7 @@ name='Matcha-dark-sea'
 
 [org.gnome.Terminal.Legacy.Profile]
 background-color='rgb(69,70,73)'
-use-theme-colors=true
+use-theme-colors=false
 use-system-font=false
 font='Hack 11'
 foreground-color='rgb(220,233,235)'
