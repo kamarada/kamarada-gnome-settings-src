@@ -102,20 +102,6 @@ logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
 
-[org/gnome/shell/extensions/materialshell/layouts]
-default-layout='half'
-half=true
-ratio-value=0.54999999999999993
-split=false
-tween-time=0.40000000000000013
-
-[org/gnome/shell/extensions/materialshell/theme]
-panel-icon-style='hybrid'
-panel-opacity=99
-panel-size=40
-primary-color='#166052'
-surface-opacity=100
-
 [org/gnome/shell/extensions/nightthemeswitcher]
 commands-enabled=false
 cursor-variant-original='xcursor-breeze'
@@ -135,3 +121,17 @@ gap-inner=uint32 0
 gap-outer=uint32 0
 show-title=true
 tile-by-default=true
+hint-color-rgba='rgb(0,135,135)'
+
+[org/gnome/shell/extensions/materialshell/layouts]
+float=false
+split=false
+half=true
+default-layout='half'
+windows-excluded='Enpass,Gnome-layout-switcher'
+ratio-value=0.54999999999999993
+
+[org/gnome/shell/extensions/materialshell/theme]
+clock-horizontal=true
+primary-color='#2eb398'
+taskbar-item-style='name'
