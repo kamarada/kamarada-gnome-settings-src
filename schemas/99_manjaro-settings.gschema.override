@@ -103,7 +103,9 @@ logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
 sort-directories-first=true
 
 [org/gnome/shell/extensions/nightthemeswitcher]
-commands-enabled=false
+command-sunrise='kvantummanager --set Matchama'
+command-sunset='kvantummanager --set Matchama-Dark'
+commands-enabled=true
 cursor-variant-original='xcursor-breeze'
 gtk-variant-day='Matcha-sea'
 gtk-variant-night='Matcha-dark-sea'
