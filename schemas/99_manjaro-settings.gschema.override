@@ -120,7 +120,3 @@ time-source='nightlight'
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Super>q']
-switch-to-workspace-down=['<Super>s']
-switch-to-workspace-up=['<Super>w']
-move-to-workspace-up=['<Shift><Super>w']
-move-to-workspace-down=['<Shift><Super>s']
