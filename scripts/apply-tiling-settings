@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-dconf dump / | grep '\[org/gnome/shell/extensions/materialshell/layouts\]' -q || dconf load / < /usr/share/gnome-shell/extensions/material-shell@papyelgringo/schemas/10_material-shell.gschema.override
-dconf dump / | grep '\[org/gnome/shell/extensions/pop-shell\]' -q || dconf load / < /usr/share/gnome-shell/extensions/pop-shell\@system76.com/schemas/10_pop-shell.gschema.override
+dconf load / < /usr/share/gnome-shell/extensions/material-shell@papyelgringo/schemas/10_material-shell.gschema.override
+dconf load / < /usr/share/gnome-shell/extensions/pop-shell\@system76.com/schemas/10_pop-shell.gschema.override
+dconf load /org/gnome/desktop/app-folders/ < /usr/share/gnome-shell/appfolders-settings
+echo "Hidden=true" >> ~/.config/autostart/manjaro-tiling-settings.desktop

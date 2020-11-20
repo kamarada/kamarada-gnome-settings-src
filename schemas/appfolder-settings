@@ -1,0 +1,19 @@
+[/]
+folder-children=['accessories', 'office', 'system-tools']
+
+[folders/accessories]
+apps=['yad-icon-browser.desktop', 'uget-gtk.desktop']
+categories=['Utility']
+name='Accessories'
+translate=true
+
+[folders/office]
+categories=['Office']
+name='Office'
+translate=true
+
+[folders/system-tools]
+apps=['qvidcap.desktop', 'qv4l2.desktop', 'bssh.desktop', 'bvnc.desktop', 'hp-uiscan.desktop']
+categories=['System', 'Settings']
+name='System Tools'
+translate=true
