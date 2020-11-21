@@ -1,0 +1,27 @@
+[/]
+app-picker-layout=[{'system-tools': <{'position': <0>}>, 'accessories': <{'position': <1>}>, 'office': <{'position': <2>}>, 'webapp-manager.desktop': <{'position': <3>}>, 'firefox.desktop': <{'position': <4>}>, 'org.gnome.Geary.desktop': <{'position': <5>}>, 'simple-scan.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Cheese.desktop': <{'position': <8>}>, 'org.gnome.Lollypop.desktop': <{'position': <9>}>, 'org.gnome.gThumb.desktop': <{'position': <10>}>, 'gnome-layouts.desktop': <{'position': <11>}>, 'manjaro-documentation.desktop': <{'position': <12>}>, 'org.gnome.Nautilus.desktop': <{'position': <13>}>, 'org.gnome.Maps.desktop': <{'position': <14>}>, 'org.manjaro.pamac.manager.desktop': <{'position': <15>}>}]
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'org.gnome.Terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'gnome-tweak-tool.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
+
+[extensions/materialshell/layouts]
+default-layout='half'
+float=false
+half=true
+ratio-value=0.54999999999999993
+split=false
+windows-excluded='Enpass,Gnome-layout-switcher'
+
+[extensions/materialshell/theme]
+clock-horizontal=true
+primary-color='#2eb398'
+taskbar-item-style='name'
+
+[extensions/pop-shell]
+focus-down=['<Super>s']
+focus-left=['<Super>a']
+focus-right=['<Super>d']
+focus-up=['<Super>w']
+gap-inner=uint32 0
+gap-outer=uint32 0
+hint-color-rgba='rgb(0,135,135)'
+show-title=true
+tile-by-default=false
