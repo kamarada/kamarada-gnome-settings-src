@@ -40,10 +40,10 @@ tap-and-drag=true
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org']
+enabled-extensions=['pamac-updates@manjaro.org', 'nightthemeswitcher@romainvigier.fr', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com']
 
 [org.gnome.shell.extensions.user-theme]
-name='Adwaita-maia-dark'
+name='Adwaita-maia-compact-dark'
 
 [org.gnome.Terminal.Legacy.Profile]
 background-color='rgb(69,70,73)'
@@ -121,3 +121,42 @@ switch-to-workspace-9=['<Super>9']
 switch-to-workspace-0=['<Super>0']
 switch-to-workspace-left=['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left', '<Super>a']
 switch-to-workspace-right=['<Super>Page_Down', '<Super>d', '<Super><Alt>Right', '<Control><Alt>Right']
+
+[org/gnome/shell/extensions/vertical-overview]
+dash-max-height=100
+hide-dash=false
+override-dash=false
+
+[org/gnome/shell/extensions/nightthemeswitcher/time]
+manual-time-source=true
+nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
+ondemand-time='night'
+time-source='ondemand'
+
+[org/gnome/shell/extensions/nightthemeswitcher]
+commands-enabled=false
+gtk-variant-day='Adwaita-maia-compact'
+gtk-variant-night='Adwaita-maia-compact-dark'
+manual-gtk-variants=false
+manual-shell-variants=true
+manual-time-source=true
+ondemand-time='night'
+settings-version=1
+shell-variant-day='Adwaita-maia-compact'
+shell-variant-night='Adwaita-maia-compact-dark'
+time-source='ondemand'
+
+[org/gnome/shell/extensions/nightthemeswitcher/commands]
+enabled=false
+sunrise='sed -i 's/Adwaita-maia-dark.conf/Adwaita-maia.conf/' ~/.config/qt5ct/qt5ct.conf'
+sunset='sed -i 's/Adwaita-maia.conf/Adwaita-maia-dark.conf/' ~/.config/qt5ct/qt5ct.conf'
+
+[org/gnome/shell/extensions/nightthemeswitcher/gtk-variants]
+day='Adwaita-maia-compact'
+manual=true
+night='Adwaita-maia-compact-dark'
+
+[org/gnome/shell/extensions/nightthemeswitcher/shell-variants]
+day='Adwaita-maia-compact'
+manual=true
+night='Adwaita-maia-compact-dark'
