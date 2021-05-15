@@ -1,5 +1,5 @@
 [org.gnome.shell]
-enabled-extensions=['pamac-updates@manjaro.org', 'nightthemeswitcher@romainvigier.fr', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'gnome-ui-tune@itstime.tech']
+enabled-extensions=['pamac-updates@manjaro.org', 'nightthemeswitcher@romainvigier.fr', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'gnome-ui-tune@itstime.tech']
 
 [org/gnome/shell/extensions/nightthemeswitcher]
 cursor-variant-original='xcursor-breeze'

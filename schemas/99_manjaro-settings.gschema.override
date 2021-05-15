@@ -40,7 +40,7 @@ tap-and-drag=true
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['pamac-updates@manjaro.org', 'nightthemeswitcher@romainvigier.fr', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'gnome-ui-tune@itstime.tech']
+enabled-extensions=['pamac-updates@manjaro.org', 'nightthemeswitcher@romainvigier.fr', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'gnome-ui-tune@itstime.tech']
 
 [org.gnome.shell.extensions.user-theme]
 name='Adwaita-maia-compact-dark'
