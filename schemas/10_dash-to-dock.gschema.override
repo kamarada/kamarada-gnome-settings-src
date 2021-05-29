@@ -21,6 +21,6 @@ multi-monitor=true
 preferred-monitor=0
 running-indicator-style='DASHES'
 show-apps-at-top=true
-show-mounts=true
+show-mounts=false
 show-trash=false
 transparency-mode='FIXED'
