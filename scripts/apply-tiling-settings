@@ -2,6 +2,7 @@
 
 dconf load / < /usr/share/gnome-shell/extensions/material-shell@papyelgringo/schemas/10_material-shell.gschema.override
 dconf load / < /usr/share/gnome-shell/extensions/pop-shell\@system76.com/schemas/10_pop-shell.gschema.override
+dconf load / < /usr/share/gnome-shell/etcetera.gschema.override
 dconf load /org/gnome/desktop/app-folders/ < /usr/share/gnome-shell/app-folder-settings
 dconf load /org/gnome/shell/ < /usr/share/gnome-shell/app-grid-settings
 [[ -e ~/.config/autostart/manjaro-tiling-settings.desktop ]] && grep -q "Hidden=true" || echo "Hidden=true" >> ~/.config/autostart/manjaro-tiling-settings.desktop
