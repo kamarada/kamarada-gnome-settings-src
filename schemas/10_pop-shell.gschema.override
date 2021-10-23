@@ -4,7 +4,3 @@ gap-outer=uint32 0
 show-title=true
 tile-by-default=false
 hint-color-rgba='rgb(0,135,135)'
-focus-up=['<Super>j']
-focus-left=['<Super>h']
-focus-down=['<Super>k']
-focus-right=['<Super>l']
