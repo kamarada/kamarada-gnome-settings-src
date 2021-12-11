@@ -1,8 +1,3 @@
-[org/gnome/shell/extensions/vertical-overview]
-dash-max-height=100
-hide-dash=false
-override-dash=false
-
 [org/gnome/shell/extensions/nightthemeswitcher/time]
 manual-time-source=true
 nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
@@ -24,8 +19,8 @@ time-source='ondemand'
 
 [org/gnome/shell/extensions/nightthemeswitcher/commands]
 enabled=false
-sunrise='sed -i "s/Adwaita-maia-dark.conf/Adwaita-maia.conf/" ~/.config/qt5ct/qt5ct.conf'
-sunset='sed -i "s/Adwaita-maia.conf/Adwaita-maia-dark.conf/" ~/.config/qt5ct/qt5ct.conf'
+sunrise='sed -i 's/Adwaita-maia-dark.conf/Adwaita-maia.conf/' ~/.config/qt5ct/qt5ct.conf'
+sunset='sed -i 's/Adwaita-maia.conf/Adwaita-maia-dark.conf/' ~/.config/qt5ct/qt5ct.conf'
 
 [org/gnome/shell/extensions/nightthemeswitcher/gtk-variants]
 day='Adwaita-maia-compact'
@@ -36,16 +31,3 @@ night='Adwaita-maia-compact-dark'
 day='Adwaita-maia-compact'
 manual=true
 night='Adwaita-maia-compact-dark'
-enabled=false
-
-[org/gnome/shell/extensions/dash-to-dock]
-autohide=true
-autohide-in-fullscreen=true
-dock-fixed=false
-dock-position='BOTTOM'
-hot-keys=false
-intellihide=true
-intellihide-mode='ALL_WINDOWS'
-show-apps-at-top=true
-show-mounts=false
-show-trash=false
