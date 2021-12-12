@@ -1,10 +1,10 @@
-[org/gnome/shell/extensions/nightthemeswitcher/time]
+[org.gnome.shell.extensions.nightthemeswitcher.time]
 manual-time-source=true
 nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
 ondemand-time='night'
 time-source='ondemand'
 
-[org/gnome/shell/extensions/nightthemeswitcher]
+[org.gnome.shell.extensions.nightthemeswitcher]
 commands-enabled=false
 gtk-variant-day='Adwaita-maia-compact'
 gtk-variant-night='Adwaita-maia-compact-dark'
@@ -17,17 +17,17 @@ shell-variant-day='Adwaita-maia-compact'
 shell-variant-night='Adwaita-maia-compact-dark'
 time-source='ondemand'
 
-[org/gnome/shell/extensions/nightthemeswitcher/commands]
+[org.gnome.shell.extensions.nightthemeswitcher.commands]
 enabled=false
 sunrise='sed -i 's/Adwaita-maia-dark.conf/Adwaita-maia.conf/' ~/.config/qt5ct/qt5ct.conf'
 sunset='sed -i 's/Adwaita-maia.conf/Adwaita-maia-dark.conf/' ~/.config/qt5ct/qt5ct.conf'
 
-[org/gnome/shell/extensions/nightthemeswitcher/gtk-variants]
+[org.gnome.shell.extensions.nightthemeswitcher.gtk-variants]
 day='Adwaita-maia-compact'
 manual=true
 night='Adwaita-maia-compact-dark'
 
-[org/gnome/shell/extensions/nightthemeswitcher/shell-variants]
+[org.gnome.shell.extensions.nightthemeswitcher.shell-variants]
 day='Adwaita-maia-compact'
 manual=true
 night='Adwaita-maia-compact-dark'

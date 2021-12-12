@@ -76,7 +76,7 @@ logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
 
-[org/gnome/desktop/wm/keybindings]
+[org.gnome.desktop.wm.keybindings]
 close=['<Super>q']
 maximize=@as []
 minimize=@as []

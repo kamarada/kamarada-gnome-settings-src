@@ -1,4 +1,4 @@
-[org/gnome/shell/extensions/nightthemeswitcher]
+[org.gnome.shell.extensions.nightthemeswitcher]
 cursor-variant-original='xcursor-breeze'
 gtk-variant-day='Adwaita-maia-compact'
 gtk-variant-night='Adwaita-maia-compact-dark'
