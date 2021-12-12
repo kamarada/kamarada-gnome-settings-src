@@ -1,12 +1,4 @@
-[org.gnome.shell.extensions.nightthemeswitcher]
-cursor-variant-original='xcursor-breeze'
-gtk-variant-day='Adwaita-maia-compact'
-gtk-variant-night='Adwaita-maia-compact-dark'
-gtk-variant-original='Adwaita-maia-compact-dark'
-icon-variant-original='Papirus-Dark-Maia'
-manual-gtk-variants=true
-manual-shell-variants=true
-shell-variant-day='Adwaita-maia'
-shell-variant-night='Adwaita-maia-dark'
-shell-variant-original='Adwaita-maia-dark'
-time-source='nightlight'
+[org.gnome.shell.extensions.vertical-overview]
+dash-max-height=100
+hide-dash=false
+override-dash=false
