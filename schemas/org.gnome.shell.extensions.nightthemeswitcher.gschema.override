@@ -1,7 +1,7 @@
 [org.gnome.shell.extensions.nightthemeswitcher.commands]
 enabled=false
-sunrise='sed -i 's/Adwaita-maia-dark.conf/Adwaita-maia.conf/' ~/.config/qt5ct/qt5ct.conf'
-sunset='sed -i 's/Adwaita-maia.conf/Adwaita-maia-dark.conf/' ~/.config/qt5ct/qt5ct.conf'
+sunrise="sed -i 's/Adwaita-maia-dark.conf/Adwaita-maia.conf/' ~/.config/qt5ct/qt5ct.conf"
+sunset="sed -i 's/Adwaita-maia.conf/Adwaita-maia-dark.conf/' ~/.config/qt5ct/qt5ct.conf"
 
 [org.gnome.shell.extensions.nightthemeswitcher.gtk-variants]
 day='Adwaita-maia-compact'
