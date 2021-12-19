@@ -1,8 +1,8 @@
 [org.gnome.shell.extensions.arcmenu]
 custom-menu-button-text='Menu'
 custom-menu-button-icon-size=18
-custom-menu-button-icon='/usr/share/icons/manjaro/white/white.svg'
 custom-menu-button-text=''
+distro-icon='3'
 menu-button-appearance='Icon_Text'
 menu-button-icon='Custom_Icon'
 
