@@ -5,8 +5,3 @@ half=true
 default-layout='half'
 windows-excluded='Enpass,Gnome-layout-switcher'
 ratio-value=0.54999999999999993
-
-[org.gnome.shell.extensions.materialshell.theme]
-clock-horizontal=true
-primary-color='#2eb398'
-taskbar-item-style='name'

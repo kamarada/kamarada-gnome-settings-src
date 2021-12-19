@@ -1,0 +1,4 @@
+[org.gnome.shell.extensions.materialshell.theme]
+clock-horizontal=true
+primary-color='#2eb398'
+taskbar-item-style='name'
