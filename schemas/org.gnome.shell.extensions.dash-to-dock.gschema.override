@@ -1,5 +1,14 @@
 [org.gnome.shell.extensions.dash-to-dock]
 animate-show-apps=false
+app-hotkey-1@as []
+app-hotkey-2@as []
+app-hotkey-3@as []
+app-hotkey-4@as []
+app-hotkey-5@as []
+app-hotkey-6@as []
+app-hotkey-7@as []
+app-hotkey-8@as []
+app-hotkey-9@as []
 apply-custom-theme=true
 autohide=true
 autohide-in-fullscreen=true
