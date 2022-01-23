@@ -21,7 +21,7 @@ document-font-name='Sans 11'
 enable-animations=true
 font-name='Noto Sans 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Matcha-sea'
+gtk-theme='Adwaita-maia-compact-dark'
 icon-theme='Papirus-Dark-Maia'
 monospace-font-name='Hack 11'
 
@@ -39,15 +39,15 @@ tap-and-drag=true
 [org.gnome.shell]
 always-show-log-out=true
 disable-extension-version-validation=true
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'gnome-tweak-tool.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['pop-shell@system76.com','dash-to-dock@micxgx.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'org.manjaro.pamac.manager.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
+enabled-extensions=['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'x11gestures@joseexposito.github.io']
 
 [org.gnome.shell.extensions.user-theme]
-name='Matcha-dark-sea'
+name='Adwaita-maia-compact-dark'
 
 [org.gnome.Terminal.Legacy.Profile]
 background-color='rgb(69,70,73)'
-use-theme-colors=false
+use-theme-colors=true
 use-system-font=false
 font='NotoSansMono Nerd Font 11'
 foreground-color='rgb(220,233,235)'
@@ -76,21 +76,32 @@ logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
 
-[org/gnome/shell/extensions/nightthemeswitcher]
-command-sunrise='kvantummanager --set Matchama'
-command-sunset='kvantummanager --set Matchama-Dark'
-commands-enabled=true
-cursor-variant-original='xcursor-breeze'
-gtk-variant-day='Matcha-sea'
-gtk-variant-night='Matcha-dark-sea'
-gtk-variant-original='Matcha-dark-sea'
-icon-variant-original='Papirus-Dark-Maia'
-manual-gtk-variants=true
-manual-shell-variants=true
-shell-variant-day='Matcha-dark-sea'
-shell-variant-night='Matcha-dark-sea'
-shell-variant-original='Matcha-dark-sea'
-time-source='nightlight'
-
-[org/gnome/desktop/wm/keybindings]
+[org.gnome.desktop.wm.keybindings]
 close=['<Super>q']
+maximize=@as []
+minimize=@as []
+move-to-workspace-1=['<Shift><Super>1']
+move-to-workspace-2=['<Shift><Super>2']
+move-to-workspace-3=['<Shift><Super>3']
+move-to-workspace-4=['<Shift><Super>4']
+move-to-workspace-5=['<Shift><Super>5']
+move-to-workspace-6=['<Shift><Super>6']
+move-to-workspace-7=['<Shift><Super>7']
+move-to-workspace-8=['<Shift><Super>8']
+move-to-workspace-9=['<Shift><Super>9']
+move-to-workspace-10=['<Shift><Super>0']
+move-to-workspace-left=['<Super><Shift>Page_Up', '<Super><Shift>a', '<Super><Shift><Alt>Left', '<Control><Shift><Alt>Left']
+move-to-workspace-right=['<Super><Shift>Page_Down', '<Super><Shift>d', '<Super><Shift><Alt>Right', '<Control><Shift><Alt>Right']
+panel-main-menu=['<Alt>F1']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-5=['<Super>5']
+switch-to-workspace-6=['<Super>6']
+switch-to-workspace-7=['<Super>7']
+switch-to-workspace-8=['<Super>8']
+switch-to-workspace-9=['<Super>9']
+switch-to-workspace-10=['<Super>0']
+switch-to-workspace-left=['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left', '<Super>a']
+switch-to-workspace-right=['<Super>Page_Down', '<Super>d', '<Super><Alt>Right', '<Control><Alt>Right']

@@ -1,0 +1,4 @@
+[org.gnome.shell.extensions.vertical-overview]
+dash-max-height=100
+hide-dash=false
+override-dash=false
