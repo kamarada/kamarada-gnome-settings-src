@@ -2,7 +2,7 @@
 folder-children=['accessories', 'office', 'system-tools']
 
 [folders/accessories]
-apps=['yad-icon-browser.desktop', 'uget-gtk.desktop', 'de.haeckerfelix.Fragments.desktop']
+apps=['yad-icon-browser.desktop', 'de.haeckerfelix.Fragments.desktop']
 categories=['Utility']
 excluded-apps=['gnome-layouts.desktop', 'manjaro-documentation.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Maps.desktop']
 name='Accessories'
