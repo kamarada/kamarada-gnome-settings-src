@@ -1,8 +1,0 @@
-[Desktop Entry]
-Exec=/usr/bin/gnome40transiotion.sh
-Icon=network-bluetooth
-Name=gnome40 transition
-NoDisplay=true
-StartupNotify=false
-Terminal=false
-Type=Application
