@@ -21,8 +21,8 @@ document-font-name='Sans 11'
 enable-animations=true
 font-name='Noto Sans 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Adwaita-maia-compact-dark'
-icon-theme='Papirus-Dark-Maia'
+gtk-theme='Adw-dark'
+icon-theme='Papirus-Dark'
 monospace-font-name='Hack 11'
 
 [org.gnome.desktop.wm.preferences]
@@ -41,9 +41,6 @@ always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'org.manjaro.pamac.manager.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
 enabled-extensions=['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'x11gestures@joseexposito.github.io']
-
-[org.gnome.shell.extensions.user-theme]
-name='Adwaita-maia-compact-dark'
 
 [org.gnome.Terminal.Legacy.Profile]
 background-color='rgb(69,70,73)'
