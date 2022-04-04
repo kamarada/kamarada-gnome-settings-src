@@ -1,20 +1,12 @@
-[org.gnome.shell.extensions.nightthemeswitcher.commands]
-enabled=false
-sunrise="sed -i 's/Adwaita-maia-dark.conf/Adwaita-maia.conf/' ~/.config/qt5ct/qt5ct.conf"
-sunset="sed -i 's/Adwaita-maia.conf/Adwaita-maia-dark.conf/' ~/.config/qt5ct/qt5ct.conf"
-
 [org.gnome.shell.extensions.nightthemeswitcher.gtk-variants]
-day='Adwaita-maia-compact'
-manual=true
-night='Adwaita-maia-compact-dark'
+day='Adw'
+enabled=true
+night='Adw-dark'
 
-[org.gnome.shell.extensions.nightthemeswitcher.shell-variants]
-day='Adwaita-maia-compact'
-manual=true
-night='Adwaita-maia-compact-dark'
+[org.gnome.shell.extensions.nightthemeswitcher.icon-variants]
+day='Papirus-Light'
+enabled=true
+night='Papirus-Dark'
 
 [org.gnome.shell.extensions.nightthemeswitcher.time]
-manual-time-source=true
 nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
-ondemand-time='night'
-time-source='ondemand'
