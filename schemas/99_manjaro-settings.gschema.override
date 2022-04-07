@@ -16,6 +16,7 @@ picture-uri='file:///usr/share/backgrounds/manjaro-gnome/M2020G2.jpg'
 night-light-enabled=true
 
 [org.gnome.desktop.interface]
+color-scheme='prefer-dark'
 cursor-theme='xcursor-breeze'
 document-font-name='Sans 11'
 enable-animations=true
