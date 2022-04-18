@@ -1,5 +1,5 @@
 [/]
-folder-children=['accessories', 'games' 'office', 'system-tools']
+folder-children=['accessories', 'games', 'office', 'system-tools']
 
 [folders/accessories]
 apps=['yad-icon-browser.desktop', 'de.haeckerfelix.Fragments.desktop']
