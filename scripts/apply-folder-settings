@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+dconf load /org/gnome/desktop/app-folders/ < /usr/share/gnome-shell/app-folder-settings
+[[ -e ~/.config/autostart/manjaro-app-folder-settings.desktop ]] && grep -q "Hidden=true" || echo "Hidden=true" >> ~/.config/autostart/manjaro-app-folder-settings.desktop

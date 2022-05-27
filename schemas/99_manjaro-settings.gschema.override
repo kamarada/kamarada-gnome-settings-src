@@ -103,6 +103,3 @@ switch-to-workspace-9=['<Super>9']
 switch-to-workspace-10=['<Super>0']
 switch-to-workspace-left=['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left', '<Super>a']
 switch-to-workspace-right=['<Super>Page_Down', '<Super>d', '<Super><Alt>Right', '<Control><Alt>Right']
-
-[org.gnome.desktop.app-folders]
-folder-children=['accessories', 'games', 'office', 'system-tools']
