@@ -1,4 +1,4 @@
-[/]
+[org.gnome.desktop.app-folders]
 folder-children=['accessories', 'games', 'office', 'system-tools']
 
 [folders/accessories]
