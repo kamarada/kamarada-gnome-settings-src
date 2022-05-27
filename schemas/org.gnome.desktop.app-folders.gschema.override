@@ -1,0 +1,26 @@
+[/]
+folder-children=['accessories', 'games', 'office', 'system-tools']
+
+[folders/accessories]
+apps=['yad-icon-browser.desktop', 'de.haeckerfelix.Fragments.desktop']
+categories=['Utility']
+excluded-apps=['gnome-layouts.desktop', 'manjaro-documentation.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Maps.desktop']
+name='Accessories'
+translate=true
+
+[folders/games]
+categories=['Game']
+name='Games'
+translate=true
+
+[folders/office]
+categories=['Office']
+name='Office'
+translate=true
+
+[folders/system-tools]
+apps=['qvidcap.desktop', 'qv4l2.desktop', 'bssh.desktop', 'bvnc.desktop', 'hp-uiscan.desktop']
+categories=['System', 'Settings']
+excluded-apps=['org.manjaro.pamac.manager.desktop']
+name='System Tools'
+translate=true
