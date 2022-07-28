@@ -119,5 +119,4 @@ switch-to-workspace-right=['<Super>Page_Down', '<Super><Alt>Right', '<Control><A
 folder-children=['accessories', 'games', 'office', 'system-tools']
 
 [org.gnome.mutter]
-edge-tiling=false
 experimental-features=['scale-monitor-framebuffer', 'kms-modifiers']
