@@ -1,5 +1,5 @@
 [org.gnome.shell.extensions.custom-accent-colors]
-accent-color=Maia
+accent-color='Maia'
 theme-flatpak=true
 theme-gtk3=true
 theme-shell=true
