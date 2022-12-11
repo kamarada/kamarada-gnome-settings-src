@@ -7,6 +7,7 @@ index-on-battery=true
 
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/manjaro/abstract-d.jpg'
 show-desktop-icons=false
 
 [org.gnome.desktop.screensaver]
