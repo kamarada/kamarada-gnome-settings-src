@@ -51,7 +51,7 @@ rewrap-on-resize=true
 visible-name='manjaro'
 
 [org.gnome.nautilus.icon-view]
-default-zoom-level='small'
+default-zoom-level='small-plus'
 
 [org.gnome.nautilus.preferences]
 thumbnail-limit=1000
