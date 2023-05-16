@@ -1,2 +1,3 @@
 [org.gnome.shell.extensions.arcmenu]
 distro-icon=3
+enable-menu-hotkey=false
