@@ -112,3 +112,6 @@ switch-to-workspace-right=['<Super>Page_Down', '<Super><Alt>Right', '<Control><A
 
 [org.gnome.desktop.app-folders]
 folder-children=['accessories', 'games', 'office', 'system-tools']
+
+[org.gnome.gedit.preferences.ui]
+theme-variant='dark'
