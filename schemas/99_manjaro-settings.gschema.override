@@ -1,37 +1,18 @@
-[org.freedesktop.Tracker.Extract]
-sched-idle='always'
-
-[org.freedesktop.Tracker.Miner.Files]
-sched-idle='always'
-index-on-battery=true
-
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
 picture-uri-dark='file:///usr/share/backgrounds/manjaro/abstract-d.png'
-
-[org.gnome.settings-daemon.plugins.color]
-night-light-enabled=true
 
 [org.gnome.desktop.interface]
 color-scheme='prefer-dark'
 cursor-theme='Bibata-Modern-Classic'
 document-font-name='Sans 11'
-enable-animations=true
 font-name='Noto Sans 11'
 gtk-theme='Adw-dark'
 icon-theme='Papirus-Dark-Maia'
 monospace-font-name='Hack 11'
 
 [org.gnome.desktop.wm.preferences]
-titlebar-uses-system-font=false
 button-layout='appmenu:minimize,maximize,close'
-focus-mode='click'
-
-[org.gnome.desktop.peripherals.touchpad]
-tap-to-click=true
-click-method='areas'
-two-finger-scrolling-enabled=true
-tap-and-drag=true
 
 [org.gnome.shell]
 always-show-log-out=true
@@ -52,10 +33,6 @@ visible-name='manjaro'
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small-plus'
 
-[org.gnome.nautilus.preferences]
-thumbnail-limit=1000
-show-create-link=true
-
 [org.gnome.gedit.preferences.editor]
 auto-indent=true
 editor-font='Hack 12'
@@ -63,10 +40,7 @@ scheme='solarized-dark'
 tabs-size=4
 use-default-font=false
 
-[org.gnome.login-screen]
-logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
-
-[org.gtk.Settings.FileChooser]
+[org.gtk.settings.file-chooser]
 sort-directories-first=true
 
 [org.gnome.shell.keybindings]
