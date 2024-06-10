@@ -115,3 +115,6 @@ folder-children=['accessories', 'games', 'office', 'system-tools']
 
 [org.gnome.gedit.preferences.ui]
 theme-variant='dark'
+
+[org.gnome.login-screen]
+logo='/usr/share/icons/manjaro/white/watermark.png'
