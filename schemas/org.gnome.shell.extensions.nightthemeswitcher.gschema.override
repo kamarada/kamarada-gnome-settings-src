@@ -1,12 +1,12 @@
 [org.gnome.shell.extensions.nightthemeswitcher.gtk-variants]
-day='Adw'
+day='Adw-gtk3'
 enabled=true
-night='Adw-dark'
+night='Adw-gtk3-dark'
 
 [org.gnome.shell.extensions.nightthemeswitcher.icon-variants]
-day='Papirus-Light'
+day='Papirus-Light-Maia'
 enabled=true
-night='Papirus-Dark'
+night='Papirus-Dark-Maia'
 
 [org.gnome.shell.extensions.nightthemeswitcher.time]
 nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
