@@ -58,7 +58,7 @@ use-default-font=false
 theme-variant='dark'
 
 [org.gnome.login-screen]
-logo='/usr/share/icons/manjaro/white/watermark.png'
+logo='/usr/share/pixmaps/manjaro-logo-text-dark.png'
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small-plus'
