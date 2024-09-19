@@ -50,7 +50,8 @@ button-layout='appmenu:minimize,maximize,close'
 [org.gnome.gedit.preferences.editor]
 auto-indent=true
 editor-font='Hack 12'
-scheme='solarized-dark'
+style-scheme-for-dark-theme-variant='solarized-dark'
+style-scheme-for-light-theme-variant='solarized-light'
 tabs-size=4
 use-default-font=false
 
