@@ -54,9 +54,6 @@ scheme='solarized-dark'
 tabs-size=4
 use-default-font=false
 
-[org.gnome.gedit.preferences.ui]
-theme-variant='dark'
-
 [org.gnome.login-screen]
 logo='/usr/share/pixmaps/manjaro-logo-text-dark.png'
 
