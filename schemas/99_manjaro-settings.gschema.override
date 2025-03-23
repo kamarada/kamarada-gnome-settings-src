@@ -10,6 +10,9 @@ folder-children=['accessories', 'games', 'office', 'system-tools']
 picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
 picture-uri-dark='file:///usr/share/backgrounds/manjaro/abstract-d.png'
 
+[org.gnome.desktop.default-applications.terminal]
+exec='kgx'
+
 [org.gnome.desktop.interface]
 accent-color='maia'
 color-scheme='prefer-dark'
