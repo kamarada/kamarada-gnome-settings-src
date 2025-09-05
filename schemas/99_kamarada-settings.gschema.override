@@ -7,9 +7,11 @@ use-system-font=false
 folder-children=['accessories', 'games', 'office', 'system-tools']
 
 [org.gnome.desktop.background]
-## Default background
+## Appearance > Background > Default Image
 picture-uri = "file:///usr/share/backgrounds/kamarada/cambirela-light.jpg"
+## Appearance > Background > Dark Style Image
 picture-uri-dark = "file:///usr/share/backgrounds/kamarada/cambirela-dark.jpg"
+## Appearance > Background > Adjustment
 picture-options = "zoom"
 primary-color = "#1b5e20"
 secondary-color = "#1b5e20"
@@ -20,11 +22,17 @@ exec='kgx'
 [org.gnome.desktop.interface]
 accent-color='maia'
 color-scheme='prefer-dark'
+## Appearance > Styles > Cursor
 cursor-theme='Paper'
+## Fonts > Preferred Fonts > Document Text
 document-font-name='Sans 11'
+## Fonts > Preferred Fonts > Interface Text
 font-name='Noto Sans 11'
+## Appearance > Styles > Legacy Applications
 gtk-theme='Orchis-Green'
+## Appearance > Styles > Icons
 icon-theme='Papirus-Dark-Maia'
+## Fonts > Preferred Fonts > Monospace Text
 monospace-font-name='Hack Nerd Font 11'
 
 [org.gnome.desktop.wm.keybindings]
@@ -88,3 +96,6 @@ always-check-default-terminal=false
 [org.gtk.settings.file-chooser]
 sort-directories-first=true
 
+[org.gnome.desktop.sound]
+## Sound > System Sound Theme
+theme-name = 'Materia'
