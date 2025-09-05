@@ -7,8 +7,12 @@ use-system-font=false
 folder-children=['accessories', 'games', 'office', 'system-tools']
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
-picture-uri-dark='file:///usr/share/backgrounds/manjaro/abstract-d.png'
+## Default background
+picture-uri = "file:///usr/share/backgrounds/kamarada/cambirela-light.jpg"
+picture-uri-dark = "file:///usr/share/backgrounds/kamarada/cambirela-dark.jpg"
+picture-options = "zoom"
+primary-color = "#1b5e20"
+secondary-color = "#1b5e20"
 
 [org.gnome.desktop.default-applications.terminal]
 exec='kgx'
