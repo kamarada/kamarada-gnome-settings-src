@@ -13,12 +13,18 @@ autohide=true
 autohide-in-fullscreen=true
 background-opacity=1.0
 custom-background-color=false
-custom-theme-shrink=false
-dash-max-icon-size=48
+## Appearance > Shrink the dash: enabled
+custom-theme-shrink=true
+## Position and size > Icon size limit: 32 px
+dash-max-icon-size=32
+## Appearance > Show overview on startup: disabled
 disable-overview-on-startup=true
-dock-fixed=false
-dock-position='BOTTOM'
-extend-height=false
+## Position and size > Intelligent autohide: disabled
+dock-fixed=true
+## Position and size > Position on screen: Left
+dock-position='LEFT'
+## Position and size > Panel mode: enabled
+extend-height=true
 force-straight-corner=false
 height-fraction=1.0
 hot-keys=false
@@ -29,7 +35,17 @@ isolate-monitors=true
 multi-monitor=true
 preferred-monitor=0
 running-indicator-style='DEFAULT'
-show-apps-at-top=true
+## Launchers > Show Applications icon > Move at the beginning of the dock: disabled
+show-apps-at-top=false
+## Launchers > Show volumes and devices: disabled
 show-mounts=false
+## Launchers > Show trash can: disabled
 show-trash=false
-transparency-mode='FIXED'
+## Appearance > Customize opacity: Dynamic
+transparency-mode='DYNAMIC'
+## Customize minimum and maximum opacity values: enabled
+customize-alphas=true
+## Minimum opacity: 50%
+min-alpha=0.5
+## Maximum opacity: 100%
+max-alpha=1
