@@ -1,0 +1,5 @@
+[org.gnome.shell.extensions.lockkeys]
+## Indicator Style: Notifications Only
+style='none'
+## Notifications: Osd
+notification-preferences='osd'
