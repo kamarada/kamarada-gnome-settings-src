@@ -20,7 +20,8 @@ secondary-color = "#1b5e20"
 exec='kgx'
 
 [org.gnome.desktop.interface]
-accent-color='maia'
+## GNOME Settings > Appearance > Accent Color = Green
+accent-color='green'
 color-scheme='prefer-dark'
 ## Appearance > Styles > Cursor
 cursor-theme='Paper'
