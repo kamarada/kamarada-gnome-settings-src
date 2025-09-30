@@ -70,7 +70,7 @@ switch-to-workspace-right=['<Super>Page_Down', '<Super><Alt>Right', '<Control><A
 button-layout='appmenu:minimize,maximize,close'
 
 [org.gnome.login-screen]
-logo='/usr/share/pixmaps/manjaro-logo-text-dark.png'
+logo='/usr/share/pixmaps/kamarada-logo-text.png'
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small-plus'
